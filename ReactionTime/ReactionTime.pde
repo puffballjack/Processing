@@ -27,13 +27,13 @@ void draw(){
   rect(width/2, height/2, 10, 10);
   //println(rE);**/
   while(i<9){
-    delay(1000);
     arduino.digitalWrite(13, Arduino.HIGH);
     rS = millis();
     if(arduino.digitalRead(19) == 1){
       rE = millis();
       arduino.digitalWrite(13, Arduino.LOW);
       i++;
+      delay(1000);
     }
      rightButton[i] = str(rE - rS);
   }
