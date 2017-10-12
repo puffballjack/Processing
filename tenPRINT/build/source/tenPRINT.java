@@ -16,7 +16,7 @@ public class tenPRINT extends PApplet {
 
 int x = 0;
 int y = 0;
-int spacing = 20;
+int spacing = 30;
 double probability = .5f;
 
 public void setup()
@@ -43,7 +43,7 @@ public void draw()
     y += spacing;
   }
 }
-  public void settings() {  size(500, 500); }
+  public void settings() {  size(1200, 800); }
   static public void main(String[] passedArgs) {
     String[] appletArgs = new String[] { "tenPRINT" };
     if (passedArgs != null) {

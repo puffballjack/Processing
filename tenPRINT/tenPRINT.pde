@@ -1,11 +1,11 @@
 int x = 0;
 int y = 0;
-int spacing = 20;
+int spacing = 30;
 double probability = .5;
 
 void setup()
 {
-  size(500, 500);
+  size(1200, 800);
   background(0);
 }
 
