@@ -7,7 +7,7 @@ float[] xPosHist = new float[1];
 float[] yPosHist = new float[1];
 void setup(){
   size(600, 600);
-  arduino = new Arduino(this, Arduino.list()[1], 57600);
+  arduino = new Arduino(this, Arduino.list()[2], 57600);
   arduino.pinMode(2, Arduino.INPUT);
   background(255);
 }
